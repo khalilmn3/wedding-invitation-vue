@@ -1323,7 +1323,7 @@ import moment from 'moment';
           }); 
           this.guestbookList = data 
         } catch(err){
-          //
+          console.log(err)
         }
       },
       async addGuestbook(){ 
@@ -1341,8 +1341,8 @@ import moment from 'moment';
           this.resetMessage();
           this.getGuestbook();
           this.nameDisabled = true;
-        } catch(err){
-          //
+        } catch(err){ 
+          console.log(err)
         }
       },
 

@@ -1,7 +1,7 @@
 import axios from 'axios'; 
 const instance = axios.create({
     // baseURL: `http://192.168.1.101:9000`,
-    baseURL: `https://antar-undangan.online:97898`,
+    baseURL: `https://antar-undangan`,
     headers: {
         // 'Accept': 'application/json',
         'Content-Type': 'application/json',
